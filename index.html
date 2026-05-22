@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- The line below is the most important for fitting content to phone screens -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room Booking Site</title>
+    <!-- Links the separate CSS file below -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- This wrapper container ensures content stays centered on all devices -->
+    <div class="main-wrapper">
+        
+        <!-- Logo automatically resizes based on screen width -->
+        <img src="IMG_20260502_194749_739.png" alt="brand logo" id="brandlogo">
+        
+        <!-- Main action button -->
+        <button class="searchButton" id="button1">Search</button>
+
+        <!-- Navigation links -->
+        <nav>
+            <a href="#Home">Home</a>
+            <a href="#Contact">Contact</a>
+            <a href="services.html">Services</a>
+       
+        </nav>
+
+        <!-- Input section -->
+        <div class="form-container" id="whereBox">
+            <h2>Where?</h2>
+            <!-- Classes used to ensure inputs 2 to fit the screen -->
+            <input type="text" class="destinations" placeholder="Search destinations"> 
+            <input type="text" placeholder="checkin Date"
+            class="CheckinDate"> 
+            <input type="text" placeholder="checkoutDate"
+            class="CheckoutDate"> 
+            <button class="submit-btn" 
+            id="submitBtn">Search</button>
+        </div >
+<h2 id="Home">Homes in London</h2>
+<div class="london">
+<div class="box-charlton">
+<img src="fredericomeyer-bedroom-1966383_1920.jpg" id="img-charlton"> 
+<h4>Home in Charlton</h4>
+<p>$250 for 2 night</p>
+</div>
+
+<div id="box-barnsbury">
+ <img src="keresi72-bedroom-416062_1920.jpg" class="img-barnsbury">
+ <h4>Home in Barnsbury</h4>
+ <p>One single bed.1 bath for $201</p>
+</div>
+</div>
+<h2>Popular Homes In Ikeja</h2>
+
+<div id="ikeja">
+<div id="boxroom-ikeja">
+  <img src="piro4d-bedroom-7115016_1920.jpg"
+  class="imgroom-ikeja">
+  <h4>Room in Ikeja</h4>
+  <p>$172 for 2 nights</p>
+</div>
+
+<div id="boxguesthouse-ikeja">
+<img src="tuanarch87-master-bedroom-7910422_1920.jpg" class="imgguesthouse-ikeja">
+<h4>Guest House Ikeja</h4>
+<p>$192 for 2 nights</p>
+  </div>
+  </div>
+  <h2 id="Contact">Contact</h2> 
+  <p id="contact-info"> Phone Number: 234XXXXXXXXXX
+    <br>
+    Address: Ikorodu Lagos Nigeria
+    
+  <div id="box-socialmedia">
+    <img src="images (1).png" alt="facebook logo" class="facebook-image">
+    <img src="images (17).png" alt="instagram logo" class="instagram-image">
+  </div>
+  
+</div>
+<script src="script.js"></script>
+</body>
+</html>
